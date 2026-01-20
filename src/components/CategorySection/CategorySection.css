@@ -1,0 +1,41 @@
+.section-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+}
+
+.section-text-container .section-heading {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.section-text-container .section-subheading {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--primary-color);
+}
+
+/* Product Scroll */
+
+.product-scroll-container {
+    background-color: var(--background-color) !important;
+}
+
+.category-title {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
+/* Hide scrollbar for Chrome, Safari and Edge */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Firefox */
+.no-scrollbar {
+  scrollbar-width: none; 
+  -ms-overflow-style: none; 
+}
